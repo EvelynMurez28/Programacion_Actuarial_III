@@ -1,0 +1,73 @@
+---
+title: "Historia Academica"
+author: "Evelyn Muñoz"
+date: "4 de febrero de 2017"
+output: html_document
+---
+
+###Primer semestre
+
+####Programacion Actuarial I (6)
+####Intr. a la Profesion Actuarial (5)
+####DHPC (9)
+####Conceptos de Calculo (7)
+####Matematicas Basicas (7)
+####Problemas de Mat. Basicas (7)
+
+###Segundo semestre
+
+####Teoria del Interes (7)
+####Macroeconomia (7)
+####Formacion Humana y Social (9)
+####Lengua Extranjera I (9)
+####Calculo Diferencial (7)
+####Geometria Analitica (8)
+
+###Tercer semestre
+
+####Teoria del Interes II (8)
+####Contabilidad General (8)
+####Intr. a la Profesion Actuarial (7)
+####Macroeconomia (7)
+####Calculo Integral (7)
+####Teoria de Ecuaciones (6)
+
+###Cuarto semestre
+
+####Programacion Actuarial II (6)
+####Lengua Extranjera II (9)
+####Calculo Dif. en varias variables (5)
+####Algebra Lineal I (5)
+
+###Quinto semestre
+
+####Sistema Financiero Mexicano (9)
+####Calculo dif. en varias variables (8)
+####Ecuaciones Diferenciales I (8)
+
+
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
