@@ -3,7 +3,7 @@
 ###id
 
 y <- 0
-
+z <- c()
 mediacontaminante <- function(directorio, contaminante ,id=1:332){
     setwd("C:/Users/User/Documents/GitHub/Programacion_Actuarial_III/Specdata/specdata")
         if (contaminante == "sulfate"){
@@ -26,14 +26,15 @@ mediacontaminante <- function(directorio, contaminante ,id=1:332){
         
         c <- complete.cases(i)
         abrir2 <- i[c,2:3]
+        z <- c(z,abrir2[,y])
         
     }
-    media <- mean(abrir2[,y])
+    media <- mean(z)
     media
 }
 
 
-mediacontaminante(,"sulfate",332)
+mediacontaminante(directorio,"sulfate",5:6)
 
 
 

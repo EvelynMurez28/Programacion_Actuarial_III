@@ -1,7 +1,8 @@
 getwd()
+e <- c()
 completos <- function(directorio,id=1:332){
     setwd("C:/Users/User/Documents/GitHub/Programacion_Actuarial_III/Specdata/specdata")
-    e<- vector("numeric")
+    e <- vector("numeric")
     for (i in id){
         i = abs(i)
         if (i<10){

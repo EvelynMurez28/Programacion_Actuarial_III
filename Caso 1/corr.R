@@ -1,13 +1,15 @@
+e <- c()
 corr <- function(directorio,horizonte=0){
     setwd("C:/Users/User/Documents/GitHub/Programacion_Actuarial_III/Specdata/specdata")
-    for (i in 1:332){
+    e <- vector("numeric")
+        for (i in 1:332){
         i = abs(i)
         if (i<10){
-            i = read.csv(paste("00",i, ".csv",sep=""))
+            i = read.csv(paste("00",i, ".csv",sep=""), header = T)
         }else if (i<100){
-            i = read.csv(paste("0",i, ".csv",sep=""))
+            i = read.csv(paste("0",i, ".csv",sep=""), header = T)
         }else{
-            i = read.csv(paste(i,".csv",sep=""))
+            i = read.csv(paste(i,".csv",sep=""), header = T)
         }
         
         c <- complete.cases(i)
@@ -24,4 +26,4 @@ corr <- function(directorio,horizonte=0){
     e
 }
 
-
+corr(directorio,332)
