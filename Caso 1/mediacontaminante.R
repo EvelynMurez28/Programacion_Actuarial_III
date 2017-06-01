@@ -6,7 +6,7 @@ mediacontaminante <- function(directorio, contaminante ,id=1:332){
     y <- 0
     z <- c()
     
-        setwd("C:/Users/User/Documents/GitHub/Programacion_Actuarial_III/Specdata/specdata")
+        setwd(directorio)
         if (contaminante == "sulfate"){
         y = 1
     }  else if (contaminante == "nitrate"){
@@ -33,9 +33,8 @@ mediacontaminante <- function(directorio, contaminante ,id=1:332){
     media <- mean(z,na.rm = T)    
     media
 }
-mediacontaminante(,"nitrate",70:72)
+mediacontaminante("C:/Users/User/Documents/GitHub/Programacion_Actuarial_III/Specdata/specdata","nitrate",25:36)
 
-mediacontaminante(directorio,"sulfate",70:72)
-
+mediacontaminante("C:/Users/User/Documents/GitHub/Programacion_Actuarial_III/Specdata/specdata","sulfate",22:12)
 
 

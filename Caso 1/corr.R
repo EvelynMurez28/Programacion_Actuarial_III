@@ -26,4 +26,4 @@ corr <- function(directorio,horizonte=0){
     e
 }
 
-corr(directorio,332)
+head(corr(directorio,5000))

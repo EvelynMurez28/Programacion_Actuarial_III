@@ -23,4 +23,4 @@ completos <- function(directorio,id=1:332){
 datf
 }
 
-completos(,1:10)
+completos(,4)
